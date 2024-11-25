@@ -29,14 +29,17 @@ col2.image(image_url, caption="Thelonious Monk at Minton's Playhouse, 1947", use
 # Header for the First Track
 st.header("Miles Davis’ Bitches Brew")
 
-# Two Columns for Video and Track Details
-col1, col2 = st.columns([0.4, 0.6])  # 40% width for the video, 60% for the details
+# Three Columns: Video, Track Details, and Track Overview
+col1, col2, col3 = st.columns([0.3, 0.3, 0.4])  # 30% for video, 30% for details, 40% for overview
 
-# Left Column: Embedded Video
+# Left Column: Embedded Video (Vertically Centered)
 with col1:
+    st.write("")  # Blank lines for spacing
+    st.write("")
     st.video("https://www.youtube.com/watch?v=CE_crkd4fe4")
+    st.write("")  # Add blank space below if needed
 
-# Right Column: Track Details
+# Middle Column: Track Details
 with col2:
     st.subheader("Track Details")
     st.write("**Release Year:** 1970")
@@ -55,6 +58,15 @@ with col2:
     - Don Alias – congas
     - Juma Santos – shaker
     - Larry Young – electric organ
+    """)
+
+# Right Column: Track Overview
+with col3:
+    st.subheader("Track Overview")
+    st.write("""
+    "Bitches Brew" is a groundbreaking album that fused jazz with rock and avant-garde elements, marking the birth of jazz fusion. 
+    It is noted for its revolutionary approach to composition and improvisation, with extended jam sessions and layered textures.
+    This piece encapsulates Miles Davis' innovative genius and his willingness to challenge musical norms.
     """)
 
 # Section for Analysis
