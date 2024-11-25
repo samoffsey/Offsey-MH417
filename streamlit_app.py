@@ -41,10 +41,9 @@ with col1:
 
 # Middle Column: Track Details
 with col2:
-    st.subheader("Track Details")
+    st.subheader("Personnel")
     st.markdown("""
     <div style="text-align: left; margin: 0 auto;">
-        <strong>Personnel:</strong>
         <ul style="list-style-position: inside; padding: 0; text-align: left;">
             <li>Miles Davis – trumpet</li>
             <li>Wayne Shorter – soprano saxophone</li>
@@ -65,10 +64,9 @@ with col2:
 
 # Right Column: Track Overview
 with col3:
-    st.subheader("Track Overview")
+    st.subheader("Key Elements:")
     st.markdown("""
     <div style="text-align: left; margin: 0 auto;">
-        <strong>Key Elements:</strong>
         <ul style="list-style-position: inside; padding: 0; text-align: left;">
             <li>Fusion of jazz and rock styles</li>
             <li>Inclusion of electronic instruments such as electric piano and bass</li>
