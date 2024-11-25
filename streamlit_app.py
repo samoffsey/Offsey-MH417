@@ -24,7 +24,7 @@ Presented in the form of an interactive playlist, you will listen to excerpts fr
 
 # Right column: Image
 image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg/640px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg"
-col2.image(image_url, caption="Thelonious Monk at Minton's Playhouse, 1947", use_column_width=True)
+col2.image(image_url, caption="Thelonious Monk at Minton's Playhouse, 1947", use_container_width=True)
 
 # Header for the First Track
 st.header("Miles Davis’ Bitches Brew (1969)")
@@ -91,7 +91,7 @@ Producer Teo Macero remarked on the process: “I might go back in one of his tr
 **What you can take away:** Listen closely for elements of the post production process in recordings. Oftentimes, the way a track is mixed and mastered adds nuance to the piece and builds on the themes the performers are creating through their instruments. As a composer, consider whether techniques such as overdubbing are beneficial to your work. While it allows you to combine content from multiple takes, informing future performance based on careful listening to earlier performances, it can come at the expense of interaction between the musicians from a single group recording. 
 """)
 image_url = "https://morrisonhotelgallery.com/cdn/shop/files/miles-davis-columbia-recording-studio-1970glen-craig-808188_550x550.jpg?v=1712613368"
-col2.image(image_url, caption="Miles Davis in the Columbia Recording Studio, 1970", use_column_width=True)
+col2.image(image_url, caption="Miles Davis in the Columbia Recording Studio, 1970", use_container_width=True)
 
 
 # Header for the First Track
@@ -154,7 +154,7 @@ These aural gestures are key tools for musicians when performing an existing pie
 **What you can take away:** When listening to an experimental work, view it in context of previous pieces by the same composer or musicians. See if you can identify stylistic elements that are similar from previous work, while also noticing how the musicians differentiate the current piece. When you are performing an existing work, explore previous performances for inspiration. Are there aspects of previous performances which you think are characteristic of the piece and could be emulated? Are there other aspects in which you can more freely integrate your own practice as a musician?  
 """)
 image_url = "https://preview.redd.it/elvin-jones-jimmy-garrison-and-art-davis-at-john-coltrane-v0-ivn9vrwt2epc1.jpeg?auto=webp&s=fa88a0bd979fd05294d98cb58c39a6659560c879"
-col2.image(image_url, caption="Elvin Jones, Jimmy Garrison and Art Davis at John Coltrane Ascension recording session. (1965)", use_column_width=True)
+col2.image(image_url, caption="Elvin Jones, Jimmy Garrison and Art Davis at John Coltrane Ascension recording session. (1965)", use_container_width=True)
 
 
 # Header for the First Track
@@ -214,5 +214,5 @@ performed) (Spence 6). The vertical axis on the continuum ranges from more exper
  
 """)
 
-col2.image("ECIC.png", caption="The Experimental Composition Improvisation Continua (ECIC)", use_column_width=True)
+col2.image("ECIC.png", caption="The Experimental Composition Improvisation Continua (ECIC)", use_container_width=True)
 
