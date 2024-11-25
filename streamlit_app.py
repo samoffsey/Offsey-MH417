@@ -27,7 +27,7 @@ image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Theloniou
 col2.image(image_url, caption="Thelonious Monk at Minton's Playhouse, 1947", use_column_width=True)
 
 # Header for the First Track
-st.header("Miles Davis’ Bitches Brew (1970)")
+st.header("Miles Davis’ Bitches Brew (1969)")
 
 # Three Columns: Video, Track Details, and Track Overview
 col1, col2, col3 = st.columns([0.3, 0.3, 0.4])  # 30% for video, 30% for details, 40% for overview
@@ -81,4 +81,11 @@ with col3:
 
 # Section for Analysis
 st.subheader("Your Analysis")
-st.text_area("Write your analysis here:", height=150)
+st.write("""In the late 1960’s the development of multitrack tape recording and selective synchronous recording heads gave producers greater creative freedom. Bringing different stems in and out of the mix can be used to redirect attention to specific performers, and multitrack recordings allow channels from different performances to be combined into the final track (Zagorski-Thomas 861). This separation of audio signals allowed Davis to record multiple short energetic improvisations to include in the piece which added an element of experimentation and energy to the piece (Zagorski-Thomas 862). Davis used these techniques to develop a new approach to jazz improvisation which added a creative element in the retrospective mixing and editing choices which were previously not possible:
+
+“So I would direct, like a conductor, once we started to play, and I would either write down some music for somebody or I would tell him to play different things I was hearing, as the music was growing. . . . While the music was developing I would hear something that I thought could be extended or cut back. So that recording was a development of the creative process, a living composition. . . . Sometimes, instead of just letting the tape run, I would tell Teo to back it up so I could hear what we had done. If I wanted something else on a certain spot, I would just bring the musician in, and we would just do it” (Davis, 288–90).
+
+Producer Teo Macero remarked on the process: “I might go back in one of his tracks and take something out and put it in Bitches Brew. I’d do that with a lot of his stuff. When I didn’t have something and I wanted it, I’d go back one or two sessions before or five sessions before because I remembered a couple of good tracks. I used to have stacks of tapes in the editing room” (“Teo Macero on Creating ‘Bitches Brew "). 
+
+What you can take away: Listen closely for elements of the post production process in recordings. Oftentimes, the way a track is mixed and mastered adds nuance to the piece and builds on the themes the performers are creating through their instruments. As a composer, consider whether techniques such as overdubbing are beneficial to your work. While it allows you to combine content from multiple takes, informing future performance based on careful listening to earlier performances, it can come at the expense of interaction between the musicians from a single group recording. 
+""")
