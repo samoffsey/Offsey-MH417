@@ -134,13 +134,12 @@ with col3:
     st.markdown("""
     <div style="text-align: left; margin: 0 auto;">
         <ul style="list-style-position: inside; padding: 0; text-align: left;">
-            <li>Fusion of jazz and rock styles</li>
-            <li>Inclusion of electronic instruments such as electric piano and bass</li>
-            <li>Dense polyrhythms with multiple drummers</li>
-            <li>Open-ended structure emphasizing improvisation</li>
-            <li>Layered textures created through studio overdubs</li>
-            <li>Dissonance and harmonic ambiguity</li>
-            <li>Innovative studio techniques such as tape splicing</li>
+            <li>Large jazz combo with multiple saxophones, trumpets, and rhythm instruments</li>
+            <li>Single extended continuous composition</li>
+            <li>Collective polyphonic improvisation</li>
+            <li>Prominent polyrhythm patterns in rhythm section</li>
+            <li>Avant garde techniques like overblowing, multiphonics and atonality</li>
+            <li>Spiritual and philosophical influences</li>
         </ul>
     </div>
     """, unsafe_allow_html=True)
