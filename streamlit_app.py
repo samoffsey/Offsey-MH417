@@ -44,8 +44,6 @@ with col2:
     st.subheader("Track Details")
     st.markdown("""
     <div style="text-align: left; margin: 0 auto;">
-        <strong>Release Year:</strong> 1970<br><br>
-        <strong>Personnel:</strong>
         <ul style="list-style-position: inside; padding: 0; text-align: left;">
             <li>Miles Davis – trumpet</li>
             <li>Wayne Shorter – soprano saxophone</li>
@@ -69,17 +67,17 @@ with col3:
     st.subheader("Track Overview")
     st.markdown("""
     <div style="text-align: left; margin: 0 auto;">
+        <strong>Release Year:</strong> 1970<br><br>
+        <strong>Personnel:</strong>
         <strong>Key Elements:</strong>
         <ul style="list-style-position: inside; padding: 0; text-align: left;">
-            <li>Fusion of jazz and rock with electric instruments</li>
+            <li>Fusion of jazz and rock styles</li>
+            <li>Inclusion of electronic instruments such as electric piano and bass</li>
             <li>Dense polyrhythms with multiple drummers</li>
             <li>Open-ended structure emphasizing improvisation</li>
-            <li>Extended length allowing for deep exploration</li>
             <li>Layered textures created through studio overdubs</li>
             <li>Dissonance and harmonic ambiguity</li>
-            <li>Expressive and atmospheric trumpet playing</li>
-            <li>Avant-garde influence and unconventional phrasing</li>
-            <li>Innovative studio techniques like tape splicing</li>
+            <li>Innovative studio techniques such as tape splicing</li>
         </ul>
     </div>
     """, unsafe_allow_html=True)
