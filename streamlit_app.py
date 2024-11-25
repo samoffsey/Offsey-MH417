@@ -25,3 +25,38 @@ Presented in the form of an interactive playlist, you will listen to excerpts fr
 # Right column: Image
 image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg/640px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg"
 col2.image(image_url, caption="Thelonious Monk at Minton's Playhouse, 1947", use_column_width=True)
+
+# Header for the First Track
+st.header("Miles Davis’ Bitches Brew")
+
+# Two Columns for Video and Track Details
+col1, col2 = st.columns([0.4, 0.6])  # 40% width for the video, 60% for the details
+
+# Left Column: Embedded Video
+with col1:
+    st.video("https://www.youtube.com/watch?v=CE_crkd4fe4")
+
+# Right Column: Track Details
+with col2:
+    st.subheader("Track Details")
+    st.write("**Release Year:** 1970")
+    st.write("**Personnel:**")
+    st.markdown("""
+    - Miles Davis – trumpet
+    - Wayne Shorter – soprano saxophone
+    - Bennie Maupin – bass clarinet
+    - Joe Zawinul – electric piano
+    - Chick Corea – electric piano
+    - John McLaughlin – electric guitar
+    - Dave Holland – bass
+    - Harvey Brooks – electric bass
+    - Lenny White – drums
+    - Jack DeJohnette – drums
+    - Don Alias – congas
+    - Juma Santos – shaker
+    - Larry Young – electric organ
+    """)
+
+# Section for Analysis
+st.subheader("Your Analysis")
+st.text_area("Write your analysis here:", height=150)
