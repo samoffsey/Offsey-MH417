@@ -153,5 +153,5 @@ These aural gestures are key tools for musicians when performing an existing pie
 
 **What you can take away:** When listening to an experimental work, view it in context of previous pieces by the same composer or musicians. See if you can identify stylistic elements that are similar from previous work, while also noticing how the musicians differentiate the current piece. When you are performing an existing work, explore previous performances for inspiration. Are there aspects of previous performances which you think are characteristic of the piece and could be emulated? Are there other aspects in which you can more freely integrate your own practice as a musician?  
 """)
-image_url = "https://morrisonhotelgallery.com/cdn/shop/files/miles-davis-columbia-recording-studio-1970glen-craig-808188_550x550.jpg?v=1712613368"
-col2.image(image_url, caption="Miles Davis in the Columbia Recording Studio, 1970", use_column_width=True)
+image_url = "https://preview.redd.it/elvin-jones-jimmy-garrison-and-art-davis-at-john-coltrane-v0-ivn9vrwt2epc1.jpeg?auto=webp&s=fa88a0bd979fd05294d98cb58c39a6659560c879"
+col2.image(image_url, caption="Elvin Jones, Jimmy Garrison and Art Davis at John Coltrane Ascension recording session. (1965)", use_column_width=True)
