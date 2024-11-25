@@ -26,7 +26,6 @@ Presented in the form of an interactive playlist, you will listen to excerpts fr
 image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg/640px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg"
 col2.image(image_url, caption="Thelonious Monk at Minton's Playhouse, 1947", use_column_width=True)
 
-# Header for the First Track
 st.header("Miles Davis’ Bitches Brew")
 
 # Three Columns: Video, Track Details, and Track Overview
@@ -42,32 +41,48 @@ with col1:
 # Middle Column: Track Details
 with col2:
     st.subheader("Track Details")
-    st.write("**Release Year:** 1970")
-    st.write("**Personnel:**")
+    # Center alignment for the list
     st.markdown("""
-    - Miles Davis – trumpet
-    - Wayne Shorter – soprano saxophone
-    - Bennie Maupin – bass clarinet
-    - Joe Zawinul – electric piano
-    - Chick Corea – electric piano
-    - John McLaughlin – electric guitar
-    - Dave Holland – bass
-    - Harvey Brooks – electric bass
-    - Lenny White – drums
-    - Jack DeJohnette – drums
-    - Don Alias – congas
-    - Juma Santos – shaker
-    - Larry Young – electric organ
-    """)
+    <div style="text-align: center;">
+        <strong>Release Year:</strong> 1970<br><br>
+        <strong>Personnel:</strong>
+        <ul style="list-style-position: inside; padding: 0;">
+            <li>Miles Davis – trumpet</li>
+            <li>Wayne Shorter – soprano saxophone</li>
+            <li>Bennie Maupin – bass clarinet</li>
+            <li>Joe Zawinul – electric piano</li>
+            <li>Chick Corea – electric piano</li>
+            <li>John McLaughlin – electric guitar</li>
+            <li>Dave Holland – bass</li>
+            <li>Harvey Brooks – electric bass</li>
+            <li>Lenny White – drums</li>
+            <li>Jack DeJohnette – drums</li>
+            <li>Don Alias – congas</li>
+            <li>Juma Santos – shaker</li>
+            <li>Larry Young – electric organ</li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
 
 # Right Column: Track Overview
 with col3:
     st.subheader("Track Overview")
-    st.write("""
-    "Bitches Brew" is a groundbreaking album that fused jazz with rock and avant-garde elements, marking the birth of jazz fusion. 
-    It is noted for its revolutionary approach to composition and improvisation, with extended jam sessions and layered textures.
-    This piece encapsulates Miles Davis' innovative genius and his willingness to challenge musical norms.
-    """)
+    st.markdown("""
+    <div style="text-align: center;">
+        <strong>Key Elements:</strong>
+        <ul style="list-style-position: inside; padding: 0;">
+            <li>Fusion of jazz and rock with electric instruments</li>
+            <li>Dense polyrhythms with multiple drummers</li>
+            <li>Open-ended structure emphasizing improvisation</li>
+            <li>Extended length allowing for deep exploration</li>
+            <li>Layered textures created through studio overdubs</li>
+            <li>Dissonance and harmonic ambiguity</li>
+            <li>Expressive and atmospheric trumpet playing</li>
+            <li>Avant-garde influence and unconventional phrasing</li>
+            <li>Innovative studio techniques like tape splicing</li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
 
 # Section for Analysis
 st.subheader("Your Analysis")
