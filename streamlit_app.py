@@ -64,7 +64,7 @@ with col2:
 
 # Right Column: Track Overview
 with col3:
-    st.subheader("Key Elements:")
+    st.subheader("Stylistic Elements:")
     st.markdown("""
     <div style="text-align: left; margin: 0 auto;">
         <ul style="list-style-position: inside; padding: 0; text-align: left;">
@@ -130,7 +130,7 @@ with col2:
 
 # Right Column: Track Overview
 with col3:
-    st.subheader("Key Elements:")
+    st.subheader("Stylistic Elements:")
     st.markdown("""
     <div style="text-align: left; margin: 0 auto;">
         <ul style="list-style-position: inside; padding: 0; text-align: left;">
