@@ -46,7 +46,7 @@ with col2:
     <div style="text-align: left; margin: 0 auto;">
         <strong>Release Year:</strong> 1970<br><br>
         <strong>Personnel:</strong>
-        <ul style="list-style-position: inside; padding: 0; text-align: right;">
+        <ul style="list-style-position: inside; padding: 0; text-align: left;">
             <li>Miles Davis – trumpet</li>
             <li>Wayne Shorter – soprano saxophone</li>
             <li>Bennie Maupin – bass clarinet</li>
@@ -70,7 +70,7 @@ with col3:
     st.markdown("""
     <div style="text-align: left; margin: 0 auto;">
         <strong>Key Elements:</strong>
-        <ul style="list-style-position: inside; padding: 0; text-align: right;">
+        <ul style="list-style-position: inside; padding: 0; text-align: left;">
             <li>Fusion of jazz and rock with electric instruments</li>
             <li>Dense polyrhythms with multiple drummers</li>
             <li>Open-ended structure emphasizing improvisation</li>
