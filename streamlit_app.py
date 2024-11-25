@@ -158,7 +158,7 @@ col2.image(image_url, caption="Elvin Jones, Jimmy Garrison and Art Davis at John
 
 
 # Header for the First Track
-st.header("Ken Nordine's Word Jazz (1957)")
+st.header("Ken Nordine's Word Jazz (1960)")
 
 # Three Columns: Video, Track Details, and Track Overview
 col1, col2, col3 = st.columns([0.3, 0.3, 0.4])  # 30% for video, 30% for details, 40% for overview
@@ -167,7 +167,7 @@ col1, col2, col3 = st.columns([0.3, 0.3, 0.4])  # 30% for video, 30% for details
 with col1:
     st.write("")  # Blank lines for spacing
     st.write("")
-    st.video("https://www.youtube.com/watch?v=xZKPN8JNBig&list=OLAK5uy_k4M2fYr3D5HSRfWKiSl49kql9IyLCrDX8")
+    st.video("https://www.youtube.com/watch?v=qAdQdfVn9hg&list=OLAK5uy_n2O0qv7a8rEnA0RQCJnvX0cps-Py7owkg&index=9")
     st.write("")  # Add blank space below if needed
 
 # Middle Column: Track Details
@@ -177,11 +177,10 @@ with col2:
     <div style="text-align: left; margin: 0 auto;">
         <ul style="list-style-position: inside; padding: 0; text-align: left;">
             <li>Ken Nordine – narration</li>
-            <li>Fred Katz – cello</li>
-            <li>Paul Horn – woodwinds </li>
-            <li>John Pisano – guitar</li>
-            <li>Jimmy Bond – bass</li>
-            <li>Forest Horn – drums</li>
+            <li>Richard Campbell – piano</li>
+            <li>Ken Soderbloom – woodwinds </li>
+            <li>Emmet Frazier – bass</li>
+            <li>Bob Frazier – drums</li>
         </ul>
     </div>
     """, unsafe_allow_html=True)
