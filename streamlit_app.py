@@ -80,8 +80,9 @@ with col3:
     """, unsafe_allow_html=True)
 
 # Section for Analysis
-st.subheader("Your Analysis")
-st.write("""In the late 1960’s the development of multitrack tape recording and selective synchronous recording heads gave producers greater creative freedom. Bringing different stems in and out of the mix can be used to redirect attention to specific performers, and multitrack recordings allow channels from different performances to be combined into the final track (Zagorski-Thomas 861). This separation of audio signals allowed Davis to record multiple short energetic improvisations to include in the piece which added an element of experimentation and energy to the piece (Zagorski-Thomas 862). Davis used these techniques to develop a new approach to jazz improvisation which added a creative element in the retrospective mixing and editing choices which were previously not possible:
+st.subheader("Key Takeaways")
+col1, col2 = st.columns([0.7, 0.3])  # Set left column width to 70%
+col1.write("""In the late 1960’s the development of multitrack tape recording and selective synchronous recording heads gave producers greater creative freedom. Bringing different stems in and out of the mix can be used to redirect attention to specific performers, and multitrack recordings allow channels from different performances to be combined into the final track (Zagorski-Thomas 861). This separation of audio signals allowed Davis to record multiple short energetic improvisations to include in the piece which added an element of experimentation and energy to the piece (Zagorski-Thomas 862). Davis used these techniques to develop a new approach to jazz improvisation which added a creative element in the retrospective mixing and editing choices which were previously not possible:
 
 “So I would direct, like a conductor, once we started to play, and I would either write down some music for somebody or I would tell him to play different things I was hearing, as the music was growing. . . . While the music was developing I would hear something that I thought could be extended or cut back. So that recording was a development of the creative process, a living composition. . . . Sometimes, instead of just letting the tape run, I would tell Teo to back it up so I could hear what we had done. If I wanted something else on a certain spot, I would just bring the musician in, and we would just do it” (Davis, 288–90).
 
@@ -89,3 +90,5 @@ Producer Teo Macero remarked on the process: “I might go back in one of his tr
 
 What you can take away: Listen closely for elements of the post production process in recordings. Oftentimes, the way a track is mixed and mastered adds nuance to the piece and builds on the themes the performers are creating through their instruments. As a composer, consider whether techniques such as overdubbing are beneficial to your work. While it allows you to combine content from multiple takes, informing future performance based on careful listening to earlier performances, it can come at the expense of interaction between the musicians from a single group recording. 
 """)
+image_url = "https://morrisonhotelgallery.com/cdn/shop/files/miles-davis-columbia-recording-studio-1970glen-craig-808188_550x550.jpg?v=1712613368"
+col2.image(image_url, caption="Miles Davis in the Columbia Recording Studio, 1970", use_column_width=True)
