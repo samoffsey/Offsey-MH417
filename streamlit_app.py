@@ -27,7 +27,7 @@ image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Theloniou
 col2.image(image_url, caption="Thelonious Monk at Minton's Playhouse, 1947", use_column_width=True)
 
 # Header for the First Track
-st.header("Miles Davis’ Bitches Brew")
+st.header("Miles Davis’ Bitches Brew (1970)")
 
 # Three Columns: Video, Track Details, and Track Overview
 col1, col2, col3 = st.columns([0.3, 0.3, 0.4])  # 30% for video, 30% for details, 40% for overview
@@ -68,7 +68,6 @@ with col3:
     st.subheader("Track Overview")
     st.markdown("""
     <div style="text-align: left; margin: 0 auto;">
-        <strong>Release Year:</strong> 1970<br><br>
         <strong>Key Elements:</strong>
         <ul style="list-style-position: inside; padding: 0; text-align: left;">
             <li>Fusion of jazz and rock styles</li>
