@@ -182,7 +182,6 @@ with col2:
             <li>John Pisano – guitar</li>
             <li>Jimmy Bond – bass</li>
             <li>Forest Horn – drums</li>
-
         </ul>
     </div>
     """, unsafe_allow_html=True)
