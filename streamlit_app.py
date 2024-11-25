@@ -155,3 +155,65 @@ These aural gestures are key tools for musicians when performing an existing pie
 """)
 image_url = "https://preview.redd.it/elvin-jones-jimmy-garrison-and-art-davis-at-john-coltrane-v0-ivn9vrwt2epc1.jpeg?auto=webp&s=fa88a0bd979fd05294d98cb58c39a6659560c879"
 col2.image(image_url, caption="Elvin Jones, Jimmy Garrison and Art Davis at John Coltrane Ascension recording session. (1965)", use_column_width=True)
+
+
+# Header for the First Track
+st.header("Ken Nordine's Word Jazz (1957)")
+
+# Three Columns: Video, Track Details, and Track Overview
+col1, col2, col3 = st.columns([0.3, 0.3, 0.4])  # 30% for video, 30% for details, 40% for overview
+
+# Left Column: Embedded Video (Vertically Centered)
+with col1:
+    st.write("")  # Blank lines for spacing
+    st.write("")
+    st.video("https://www.youtube.com/watch?v=xZKPN8JNBig&list=OLAK5uy_k4M2fYr3D5HSRfWKiSl49kql9IyLCrDX8")
+    st.write("")  # Add blank space below if needed
+
+# Middle Column: Track Details
+with col2:
+    st.subheader("Personnel")
+    st.markdown("""
+    <div style="text-align: left; margin: 0 auto;">
+        <ul style="list-style-position: inside; padding: 0; text-align: left;">
+            <li>Ken Nordine – narration</li>
+            <li>Fred Katz – cello</li>
+            <li>Paul Horn – woodwinds </li>
+            <li>John Pisano – guitar</li>
+            <li>Jimmy Bond – bass</li>
+            <li>Forest Horn – drums</li>
+
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
+# Right Column: Track Overview
+with col3:
+    st.subheader("Stylistic Elements:")
+    st.markdown("""
+    <div style="text-align: left; margin: 0 auto;">
+        <ul style="list-style-position: inside; padding: 0; text-align: left;">
+            <li>Spoken word melody</li>
+            <li>Interplay between narration and instrumental backing</li>
+            <li>Use of wordplay and poetic devices</li>
+            <li>Dynamic interaction between words and music, creating improvized feel</li>
+            <li>Atmospheric sound design with reverb</li>
+            <li>Use of rests and space to create emotion</li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
+# Section for Analysis
+st.subheader("Key Takeaways")
+col1, col2 = st.columns([0.7, 0.3])  # Set left column width to 70%
+col1.write("""In the late 1960’s the development of multitrack tape recording and selective synchronous recording heads gave producers greater creative freedom. Bringing different stems in and out of the mix can be used to redirect attention to specific performers, and multitrack recordings allow channels from different performances to be combined into the final track (Zagorski-Thomas 861). This separation of audio signals allowed Davis to record multiple short energetic improvisations to include in the piece which added an element of experimentation and energy to the piece (Zagorski-Thomas 862). Davis used these techniques to develop a new approach to jazz improvisation which added a creative element in the retrospective mixing and editing choices which were previously not possible:
+
+“So I would direct, like a conductor, once we started to play, and I would either write down some music for somebody or I would tell him to play different things I was hearing, as the music was growing. . . . While the music was developing I would hear something that I thought could be extended or cut back. So that recording was a development of the creative process, a living composition. . . . Sometimes, instead of just letting the tape run, I would tell Teo to back it up so I could hear what we had done. If I wanted something else on a certain spot, I would just bring the musician in, and we would just do it” (Davis, 288–90).
+
+Producer Teo Macero remarked on the process: “I might go back in one of his tracks and take something out and put it in Bitches Brew. I’d do that with a lot of his stuff. When I didn’t have something and I wanted it, I’d go back one or two sessions before or five sessions before because I remembered a couple of good tracks. I used to have stacks of tapes in the editing room” (“Teo Macero on Creating ‘Bitches Brew "). 
+
+**What you can take away:** Listen closely for elements of the post production process in recordings. Oftentimes, the way a track is mixed and mastered adds nuance to the piece and builds on the themes the performers are creating through their instruments. As a composer, consider whether techniques such as overdubbing are beneficial to your work. While it allows you to combine content from multiple takes, informing future performance based on careful listening to earlier performances, it can come at the expense of interaction between the musicians from a single group recording. 
+""")
+image_url = "https://morrisonhotelgallery.com/cdn/shop/files/miles-davis-columbia-recording-studio-1970glen-craig-808188_550x550.jpg?v=1712613368"
+col2.image(image_url, caption="Miles Davis in the Columbia Recording Studio, 1970", use_column_width=True)
+
