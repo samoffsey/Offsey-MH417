@@ -26,6 +26,7 @@ Presented in the form of an interactive playlist, you will listen to excerpts fr
 image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg/640px-Thelonious_Monk%2C_Minton%27s_Playhouse%2C_New_York%2C_N.Y.%2C_ca._Sept._1947_%28William_P._Gottlieb_06191%29.jpg"
 col2.image(image_url, caption="Thelonious Monk at Minton's Playhouse, 1947", use_column_width=True)
 
+# Header for the First Track
 st.header("Miles Davis’ Bitches Brew")
 
 # Three Columns: Video, Track Details, and Track Overview
@@ -41,12 +42,11 @@ with col1:
 # Middle Column: Track Details
 with col2:
     st.subheader("Track Details")
-    # Center alignment for the list
     st.markdown("""
-    <div style="text-align: center;">
+    <div style="text-align: right; margin: 0 auto;">
         <strong>Release Year:</strong> 1970<br><br>
         <strong>Personnel:</strong>
-        <ul style="list-style-position: inside; padding: 0;">
+        <ul style="list-style-position: inside; padding: 0; text-align: right;">
             <li>Miles Davis – trumpet</li>
             <li>Wayne Shorter – soprano saxophone</li>
             <li>Bennie Maupin – bass clarinet</li>
@@ -68,9 +68,9 @@ with col2:
 with col3:
     st.subheader("Track Overview")
     st.markdown("""
-    <div style="text-align: center;">
+    <div style="text-align: right; margin: 0 auto;">
         <strong>Key Elements:</strong>
-        <ul style="list-style-position: inside; padding: 0;">
+        <ul style="list-style-position: inside; padding: 0; text-align: right;">
             <li>Fusion of jazz and rock with electric instruments</li>
             <li>Dense polyrhythms with multiple drummers</li>
             <li>Open-ended structure emphasizing improvisation</li>
