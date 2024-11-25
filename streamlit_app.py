@@ -44,6 +44,7 @@ with col2:
     st.subheader("Track Details")
     st.markdown("""
     <div style="text-align: left; margin: 0 auto;">
+        <strong>Personnel:</strong>
         <ul style="list-style-position: inside; padding: 0; text-align: left;">
             <li>Miles Davis – trumpet</li>
             <li>Wayne Shorter – soprano saxophone</li>
@@ -68,7 +69,6 @@ with col3:
     st.markdown("""
     <div style="text-align: left; margin: 0 auto;">
         <strong>Release Year:</strong> 1970<br><br>
-        <strong>Personnel:</strong>
         <strong>Key Elements:</strong>
         <ul style="list-style-position: inside; padding: 0; text-align: left;">
             <li>Fusion of jazz and rock styles</li>
