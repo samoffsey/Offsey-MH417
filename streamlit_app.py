@@ -43,7 +43,7 @@ with col1:
 with col2:
     st.subheader("Track Details")
     st.markdown("""
-    <div style="text-align: right; margin: 0 auto;">
+    <div style="text-align: left; margin: 0 auto;">
         <strong>Release Year:</strong> 1970<br><br>
         <strong>Personnel:</strong>
         <ul style="list-style-position: inside; padding: 0; text-align: right;">
@@ -68,7 +68,7 @@ with col2:
 with col3:
     st.subheader("Track Overview")
     st.markdown("""
-    <div style="text-align: right; margin: 0 auto;">
+    <div style="text-align: left; margin: 0 auto;">
         <strong>Key Elements:</strong>
         <ul style="list-style-position: inside; padding: 0; text-align: right;">
             <li>Fusion of jazz and rock with electric instruments</li>
