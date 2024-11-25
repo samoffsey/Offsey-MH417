@@ -213,6 +213,6 @@ performed) (Spence 6). The vertical axis on the continuum ranges from more exper
 **What you can take away:** As a listener, try to place each performer on the ECIC spectrum. Notice whether they move at all during the performance. How do performers at different quadrants interact with each other? As a performer, this tool can be useful to map out the concepts of an improvised solo. Are there elements which you want to be more or less experimental in relation to the rest of the ensemble? Nordine’s work exemplifies this type of analysis by providing a strong example of how to combine predefined and improvised elements in performance to create a particular energy and atmosphere. 
  
 """)
-image_url = "https://drive.google.com/file/d/1LWxNLh_zMZ8ZENvjlLKnMCy5BtL1qgAn/view?usp=sharing"
-col2.image(image_url, caption="The Experimental Composition Improvisation Continua (ECIC)", use_column_width=True)
+
+col2.image("ECIC.png", caption="The Experimental Composition Improvisation Continua (ECIC)", use_column_width=True)
 
