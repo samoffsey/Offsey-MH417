@@ -270,5 +270,58 @@ American studies scholar John Gennari explored this issue head on in a 1995 arti
 url2 = "https://www.dibpic.com/uploads/posts/2020-12/1607685090_back.jpg"
 col2.image(url2, caption="For Alto Album Notes", use_container_width=True)
 
-url = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Anthony_Braxton_76.jpg/300px-Anthony_Braxton_76.jpg"
-col2.image(url, caption="Anthony Braxton, 1976", use_container_width=True)
+# Header for the First Track
+st.header("Ornette Coleman's The Shape of Jazz to Come (1959)")
+
+# Three Columns: Video, Track Details, and Track Overview
+col1, col2, col3 = st.columns([0.3, 0.3, 0.4])  # 30% for video, 30% for details, 40% for overview
+
+# Left Column: Embedded Video (Vertically Centered)
+with col1:
+    st.write("")  # Blank lines for spacing
+    st.write("")
+    st.video("https://www.youtube.com/watch?v=h2q_ai2Ct-8")
+    st.write("")  # Add blank space below if needed
+
+# Middle Column: Track Details
+with col2:
+    st.subheader("Personnel")
+    st.markdown("""
+    <div style="text-align: left; margin: 0 auto;">
+        <ul style="list-style-position: inside; padding: 0; text-align: left;">
+            <li>Ornette Coleman – alto saxophone</li>
+            <li>Don Cherry – cornet</li>
+            <li>Charlie Haden – bass</li>
+            <li>Billy Higgins – drums</li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
+# Right Column: Track Overview
+with col3:
+    st.subheader("Stylistic Elements:")
+    st.markdown("""
+    <div style="text-align: left; margin: 0 auto;">
+        <ul style="list-style-position: inside; padding: 0; text-align: left;">
+            <li>Free jazz influence with some structural elements</li>
+            <li>Modal harmonic progression</li>
+            <li>Rubato Feel</li>
+            <li>Dynamic drum and bass interaction</li>
+            <li>Lack of chordal instrument to provide more harmonic freedom</li>
+            <li>Interplay bewteen melodic voices</li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
+# Section for Analysis
+st.subheader("Key Takeaways")
+col1, col2 = st.columns([0.7, 0.3])  # Set left column width to 70%
+col1.write("""Is this music really jazz? This is a question I asked myself as I listened to Anthony Braxton’s 1969 album “For Alto”. In a similar approach to discussions in class regarding whether a performance qualified as music, I grasped for stylistic elements that characterize the genre to me. This piece lacks the tripletized swing rhythms, distinction between harmonic and melodic roles, and a written melody. But there is one element which firmly places it in the jazz idiom for me, which is the prominent role of improvisation, specifically in conversation with other jazz works. 
+
+American studies scholar John Gennari explored this issue head on in a 1995 article entitled “But Is It Jazz?”. Gennari outlines the question, asking “how are we to characterize a “jazz” musician who identifies himself as a disciple of John Cage and soulmate of European modernists like Schoenberg, Webern, Boulez, and Stockhausen, and yet traces his lineage to pop artists like Chuck Berry, Elvis Presley … white jazzmen like Paul Desmond, Lee Konitz, Dave Brubeck, and Lennie Tristano; black jazzmen like Ellington, John Coltrane, Eric Dolphy, and Cecil Taylor; and to both gospel music and the military marches he played as the first black member of the Fifty Army Band?” (Gennari). Gennari goes on to provide a conceptual framework to explore the complex influences of experimental artists. Building on work by Ronald Radano in his 1993 book on Braxton, Gennari suggests that musical influences for a complex network, similar to communication over the internet, shape Braxton’s sometimes contradictory and fragmented performances (Gennari). This framework is useful in understanding any type of art form that challenges the norms of a genre to which it hopes to belong. A deeper exploration of influences, similarities and differences in a piece can prompt a much more valuable exploration of a musical work compared to a simple debate on genre adherence.
+
+**What you can take away:** When you listen to a new piece of music, try to appreciate it without immediately trying to categorize it within a specific genre. Instead, try to listen for similarities and influences from other works you are familiar with, regardless of predescribed genre. This can give you a fresh perspective when it comes to appreciating the music, as well as informing your own view of genre. As a performer, consider thinking critically about who your influences are. If they are concentrated within a single genre or time period, it could be helpful to see whether a greater diversity of influences enriches your own musical expression. 
+""")
+
+url2 = "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ornette_Coleman-140911-0002-96WP.jpg"
+col2.image(url2, caption="Ornette Coleman, 1971", use_container_width=True)
