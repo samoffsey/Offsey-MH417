@@ -216,3 +216,61 @@ performed) (Spence 6). The vertical axis on the continuum ranges from more exper
 
 col2.image("ECIC.png", caption="The Experimental Composition Improvisation Continua (ECIC)", use_container_width=True)
 
+
+# Header for the First Track
+st.header("Anthony Braxton's For Alto (1969)")
+
+# Three Columns: Video, Track Details, and Track Overview
+col1, col2, col3 = st.columns([0.3, 0.3, 0.4])  # 30% for video, 30% for details, 40% for overview
+
+# Left Column: Embedded Video (Vertically Centered)
+with col1:
+    st.write("")  # Blank lines for spacing
+    st.write("")
+    st.video("https://www.youtube.com/watch?v=ceeUhorJ39I&list=PLs9zwqXsceUikMH4R_yWvR62w3-mDXhVb&index=2")
+    st.write("")  # Add blank space below if needed
+
+# Middle Column: Track Details
+with col2:
+    st.subheader("Personnel")
+    st.markdown("""
+    <div style="text-align: left; margin: 0 auto;">
+        <ul style="list-style-position: inside; padding: 0; text-align: left;">
+            <li>Anthony Braxton – alto saxophone</li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
+# Right Column: Track Overview
+with col3:
+    st.subheader("Stylistic Elements:")
+    st.markdown("""
+    <div style="text-align: left; margin: 0 auto;">
+        <ul style="list-style-position: inside; padding: 0; text-align: left;">
+            <li>Emphasis on atonality and abstract sonic technique</li>
+            <li>Minimal reliance on traditional harmony</li>
+            <li>Use of extended techniques such as multiphonics, key clicks, and overblowing</li>
+            <li>Solo saxophone instrumentation</li>
+            <li>Large contrasts in dynamic range</li>
+            <li>Allusion to key figures in music and art through musical interpretation</li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
+# Section for Analysis
+st.subheader("Key Takeaways")
+col1, col2 = st.columns([0.7, 0.3])  # Set left column width to 70%
+col1.write("""Confessions Of 349-18-5171 features a jazz combo with spoken word narration by Nordine. Both the instrumental and spoken word parts have improvised elements. While typical jazz vocalists use pitch as a primary tool, Nordine’s choice of spoken word creates additional focus to his tone, tempo and emphasis. There is a fair degree of interplay between the instrumental combo and Nordine, with the combo style being used to help set the scenery of Nordine’s narration. Nordine uses both word choice and narration techniques to build tensions and resolutions in the piece. He explores interdependence in his work, defining his approach to word jazz as “within a structure to have each sentence suggest in essence another sentence.” (Nordine)
+
+Musicologist Alister Spence presents a novel framework that is useful in exploring Nordine’s compositions. The Experimental Composition Improvisation Continua (ECIC) model contains two axes along which to focus on within an experimental recording. The first is the spectrum from composition to improvisation. Spence defines this axis as representing “an infinite
+range of possibilities between the “ideal types” of the completely composed (i.e., premeditated, notated, or scored) and the completely improvised (i.e., in-the-moment, in-real-time, and
+performed) (Spence 6). The vertical axis on the continuum ranges from more experimental to less experimental. Spence builds of Michael Nyman’s definitions of experimentalism defining the axis as representing “an infinite range of possibilities of musical activities from the “ideal types” of not experimental (i.e., having no engagement with contingency/ chance/indeterminism) to completely experimental (i.e., completely engaged with contingency/chance/indeterminism) (Spence 6). This continuum can help us better approach Nordine’s composition. While the narration text is predefined, the diction and tone contains improvised elements. The melodic and harmonic content of the backing is less experimental, but towards the end of the piece the saxophone line becomes more experimental in its content, coinciding with Nordine’s narrative becoming more intense. 
+
+**What you can take away:** As a listener, try to place each performer on the ECIC spectrum. Notice whether they move at all during the performance. How do performers at different quadrants interact with each other? As a performer, this tool can be useful to map out the concepts of an improvised solo. Are there elements which you want to be more or less experimental in relation to the rest of the ensemble? Nordine’s work exemplifies this type of analysis by providing a strong example of how to combine predefined and improvised elements in performance to create a particular energy and atmosphere. 
+ 
+""")
+url = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Anthony_Braxton_76.jpg/300px-Anthony_Braxton_76.jpg"
+col2.image(url, caption="Anthony Braxton, 1976", use_container_width=True)
+
+url2 = "https://www.dibpic.com/uploads/posts/2020-12/1607685090_back.jpg"
+col2.image(url2, caption="For Alto Album Notes", use_container_width=True)
