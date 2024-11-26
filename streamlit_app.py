@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set the page to full width
-st.set_page_config(page_title="Experimental Jazz 101")
+st.set_page_config(layout="wide",page_title="Experimental Jazz 101")
 
 # Title and Subtitle
 st.title("Experimental Jazz 101")
