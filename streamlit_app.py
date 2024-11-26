@@ -8,7 +8,7 @@ st.title("Experimental Jazz 101")
 st.subheader("Sam Offsey / MH417 / Professor Reehl / 11/25/2024")
 
 col1, col2 = st.columns([0.7, 0.3])  # Set left column width to 70%
-st.header("Abstract")
+col1.header("Abstract")
 col1.write("""
          The jazz idiom has a long history of engaging with experimentalism. In contrast, there are relatively few resources to help beginning jazz improvisers and listeners approach engaging with this body of work. While there are many analysis methods for experimental music, I have struggled to find sources which succinctly apply these to experimental jazz works. This project will curate a playlist of experimental jazz repertoire with associated analysis techniques applied to the pieces with the goal of equipping jazz musicians and listeners with a toolkit they can use to approach dealing with experimentalism in the jazz genre. In this project I present a detailed analysis of key jazz experimentalist works including Miles Davis’ Bitches Brew, John Coltrane’s Ascension, Ken Nordine’s Word Jazz, Anthony Braxton’s For Alto, and Ornette Coleman’s The Shape of Jazz to Come. Some of the techniques which I plan to apply to these works are Kwami Coleman's discourse on “the New Thing,” George Lewis's Afrological and Eurological perspectives, and Alister Spence's Experimental Composition Improvisation Continua (ECIC) model. Through an interactive presentation, the audience will be able to gain a new set of tools for interacting with experimental jazz. Overall, this project combines cutting edge experimentalist analysis methods with illustrative works in the jazz idiom to provide the audience with a refined toolkit to approach this type of musical work.
          """)
