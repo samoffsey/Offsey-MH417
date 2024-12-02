@@ -336,7 +336,8 @@ url2 = "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ornette_Coleman-1409
 col2.image(url2, caption="Ornette Coleman, 1971", use_container_width=True)
 
 st.header("Conclusion")
-st.write("In Progress")
+st.write("""By exploring this website, you have been able to interact with a diverse range of experimental jazz approaches and techniques. Miles Davis’ Bitches Brew highlighted how focusing on post production elements can enrich the creative process. A dive into the influences through an intertextual lens in John Coltrane's Ascension illustrated the importance of inspiration in experimental performance. Then, examining Ken Nordine's Word Jazz through the Experimental Composition Improvisation Continua model provided a framework to compare and contrast the musicians within an experimental work. Afterwards, examining Anthony Braxton’s For Alto through a discussion on genre provided a helpful way to approach unfamiliar music. Finally, listening to Ornette Coleman’s The Shape of Jazz to Come through the framework of questions and change highlighted another practical framework to gain a deeper understanding of this genre. I hope you found this resource to be both helpful and enjoyable. - Sam
+""")
 
 st.header("Annotated Bibliography")
 st.write("""
